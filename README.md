@@ -89,15 +89,6 @@ Copy code
 
 All errors are handled consistently using `@ControllerAdvice`.
 
-Example `404 Not Found` response:
-
-```json
-{
-  "status": 404,
-  "error": "NOT FOUND",
-  "message": "ISSUE NOT FOUND WITH ID: 1",
-  "timestamp": "2026-01-01T18:28:50.278775"
-}
 This ensures predictable responses for clients and clean controller code.
 
 🧪 Testing Strategy (Key Highlight)
